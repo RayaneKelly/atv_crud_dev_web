@@ -37,7 +37,6 @@ const EditTeacher =  (props) => {
     )
 
     const handleSubmit = (event) => {
-        // event.preventDefalt()
         event.preventDefault()
         const teacherUpdated = {name,course,salary}
         TeacherService.update(

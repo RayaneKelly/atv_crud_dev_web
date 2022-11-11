@@ -1,4 +1,3 @@
-// import { collection,getDocs,addDoc, doc, deleteDoc, getDoc, onSnapshot, updateDoc, query } from "firebase/firestore"
 import { collection, getDocs, addDoc, doc, getDoc, updateDoc, deleteDoc, query, onSnapshot} from 'firebase/firestore'
 
 
